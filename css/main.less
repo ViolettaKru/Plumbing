@@ -1,0 +1,169 @@
+
+
+.openModal{
+    padding: 10px;
+    background: #ff4242;
+    text-decoration: none;
+    color: #fff;
+    -moz-border-radius: 3px;
+         border-radius: 3px;
+    box-shadow: 0 4px 0px #e82525;
+    transition: 0.6s;
+    
+    &:hover{
+        background: #1d8425;
+        transition: 0.6s;
+        box-shadow: 0 4px 0px #087210;
+    }
+    
+    
+}
+
+/* --- Описываем модальное окно --- */
+.modal {
+
+    /* Полупрозрачный слой перекрытия */
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%; 
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+        z-index: 1000;
+
+    /* Трансформации прозрачности фона при открытии */
+        -webkit-transition: opacity 500ms ease-in;
+           -moz-transition: opacity 500ms ease-in;
+                transition: opacity 500ms ease-in;
+
+    /* Прячем полупрозрачный контейнер до нажатия на кнопку*/
+        opacity: 0;
+        pointer-events: none;
+    
+    /* --- Показываем модальное окно --- */
+        &:target {
+            opacity: 1;
+            pointer-events: auto;
+            
+            & > div {
+                -webkit-animation: minimise 500ms linear;
+            }
+        }
+    
+    /* --- Содержание модального окна --- */    
+        & > div {
+            max-width: 400px;
+            background: #37b6dd;
+            position: relative;
+            margin: 10% auto;
+
+        /* Задаем анимацию */
+            -webkit-animation: minimise 500ms linear;
+
+        /* Добавляем стили внешнего вид */
+            padding: 20px;
+            -moz-border-radius: 3px;
+                 border-radius: 3px;
+        }
+    
+    /* --- Стили текста в модальном окне --- */
+        p {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+    
+    /* --- Ссылка на иконку закрытия модального окна --- */
+        a[href="#close"] {
+            position: absolute;
+            right: 0;
+            top: 0;
+            color: transparent;
+            
+            /* Сбрасываем изменения */
+                &:focus {
+                    outline: none;
+                }
+            /* Создаем кнопку закрытия модального окна */
+            &:after {
+                font-family: 'Arial';
+                font-size: 14px;
+                content: 'X';
+                display: block;
+
+            /* Позиционируем */
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                width: 20px;
+                padding: 3px 2px;
+
+            /* Стили */
+                text-decoration: none;
+                text-align: center;
+                background: #24a8d1;
+                color: #fff;
+                -moz-border-radius: 1px;
+                     border-radius: 1px;
+            }
+            /* Стили при наведении на иконку */
+            & :hover:after {
+                background: #2398bc;
+            }
+        }
+    
+    
+}
+
+/* Описываем стили формы */
+    #backPhone{
+        width: 86.5%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+/* Стили поля ввода  */  
+    #telForm {
+        width: 58%;
+        height: 35px;
+        float: left;
+        border: none;
+        text-align:center;
+        background: #fafafa;
+        -moz-border-radius: 5px 0 0 5px;
+             border-radius: 5px 0 0 5px;
+    }
+/* Стили кнопки */
+    #telButton {
+        width: 40%;
+        float:right;
+        border: none;
+        height: 37px;
+        background: #e03f58;
+        color:#fff;
+        cursor: pointer;
+        transition: .6s;
+        -moz-border-radius:0 5px 5px 0;
+             border-radius:0 5px 5px 0;
+  
+/* Стили кнопки при наведении */
+        &:hover {
+            background: #1d8425;
+            transition: .6s;
+        }
+    }
+
+/* --- Вид анимации --- */
+    @-webkit-keyframes minimise {
+      0% {
+        -webkit-transform: scale3d(1,1,1);
+      }
+      100% {
+        -webkit-transform: scale3d(0.1,0.1,1);
+      }
+    }
+
+/* Стили кнопки "Заказать Звонок" */
