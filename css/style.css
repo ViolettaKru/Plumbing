@@ -29,7 +29,7 @@ ul, li{
 }
 
 .btn{
-    background: #5d4df9 !important;
+    background: #303984 !important;
     color: #fff !important;
     text-transform: uppercase !important;
     font-weight: 500 !important;
@@ -59,9 +59,18 @@ ul, li{
 
 .nav{
     margin-top: 59px !important;
-    margin-bottom: 127px !important;
+    margin-bottom: 60px !important;
 }
 
+
+
+.slick-slider {
+    margin-left: 49px !important;
+}
+
+.slider-gl{
+    max-width: 1445px !important;
+}
 .logo{
 
 }
@@ -99,7 +108,7 @@ ul, li{
 }
 
 .offer-cont__title{
-    font-size: 33px;
+    font-size: 23px;
     letter-spacing: -0.02em;
     line-height: 1.2em;
 }
@@ -138,11 +147,11 @@ ul, li{
 }
 
 .about{
-
+    margin-bottom: 31px;
 }
 
 .about__title{
-   margin-bottom: 30px;
+   margin-bottom: 30px !important;
 }
 
 .about__text{
@@ -341,29 +350,35 @@ ul, li{
 }
 
 .autoplay div>img{
-    width: 95% !important;
+    width: 97% !important;
 }
 
 
 .slick-prev{
-    left: -100px !important;
+    left: -60px !important;
 }
 
 
 .slick-prev:before  {
-    content: url('../img/left.png') !important;
+    content: url('../img/left1.png') !important;
     width: 32px !important;
     height: 32px !important;
-}   
+    border-radius: 20px;
+} 
+
 
 .slick-next:before{
-    content: url('../img/right.png') !important;
+    content: url('../img/right1.png') !important;
     width: 32px !important;
     height: 32px !important;
 }
 
+.slick-next {
+    right: 39px;
+}
+
 .testimonials{
-    margin-top: 123px;
+    margin-top: 0px;
     margin-bottom: 200px;
   
 }
@@ -394,7 +409,7 @@ ul, li{
     box-shadow: 0 2px 4px 0 #e3f2fd;
 
     width: 230px;
-    height: 229px;
+    height: 176px;
     float: left;
   }
 
@@ -477,7 +492,9 @@ ul, li{
     background: #E5E5E5;
     padding-top: 67px;
     padding-bottom: 20px;
+    height: 580px;
 }
+
 
 .footer{
     background-color: #515151;
@@ -808,6 +825,13 @@ div.scrollup {
   transition-duration: .25s;
 }
 
+#menu{
+    position: fixed;
+    margin-left: 576px;
+    background: #FFF;
+    z-index: 1000;
+    padding-top: 19px;
+}
 
 .certification__list {
     display: flex;
@@ -839,3 +863,5 @@ div.scrollup {
 .breadcrumb a {
     text-decoration: underline;
 }
+
+
