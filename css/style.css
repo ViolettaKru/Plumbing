@@ -396,7 +396,7 @@ ul, li{
 .tabs {
     display: flex;
     flex-direction: column;
-  }
+}
 
   .tabs__links {
     display: flex;
@@ -405,15 +405,14 @@ ul, li{
     white-space: nowrap;
     margin-bottom: 15px;
     background-color: #fff;
-    border: 1px solid #e3f2fd;
-    box-shadow: 0 2px 4px 0 #e3f2fd;
-
     width: 230px;
-    height: 176px;
+    height: 131px;
     float: left;
-  }
+}
 
   .tabs__links>a {
+    
+
     display: inline-block;
     text-decoration: none;
     color: #1976d2;
@@ -422,14 +421,20 @@ ul, li{
   }
 
   .tabs__links>a:hover {
-    background-color: rgba(227, 242, 253, 0.3);
+    border-left: 2px solid #1e398d;
   }
+  .tabs__links>a:active {
+    color: #fff !important;
+    background: #1e398d;
+  }
+
 
   .tabs>#content-1:target~.tabs__links>a[href="#content-1"],
   .tabs>#content-2:target~.tabs__links>a[href="#content-2"],
   .tabs>#content-3:target~.tabs__links>a[href="#content-3"] {
-    background-color: #bbdefb;
+    background-color: #1e398d;
     cursor: default;
+    color: #fff !important;
   }
 
   .tabs>div:not(.tabs__links) {
@@ -450,9 +455,8 @@ ul, li{
     }
 
     .tabs__links>a {
-      border: 1px solid #e3f2fd;
-      box-shadow: 0 2px 4px 0 #e3f2fd;
-      margin-bottom: 8px;
+        box-shadow: 0 2px 4px 0 #e3f2fd;
+        padding-bottom: 14px;
     }
 
     .tabs__links>a:last-child {
@@ -864,4 +868,72 @@ div.scrollup {
     text-decoration: underline;
 }
 
+.certification__name img {
+    float: left;
+    width: 1.8em;
+    margin-right: 0.5em;
+}
 
+.download__link {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.certification__name {
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+a {
+    color: #1e398d !important;
+    text-decoration: none !important;
+}
+
+.certification__item__im img{
+    height: 223px;
+    width: 223px;
+}
+
+.prods {
+    display: inline-block;
+    width: calc(100% - 230px);
+    padding: 0px 0 0 30px;
+    float: left;
+}
+
+.production-files__list {
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.production-files__item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 24px;
+    padding-bottom: 12px;
+    border: 1px solid #eee;
+    margin-bottom: -1px;
+    transition: box-shadow 0.2s ease;
+}
+
+.production-files__img {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+}
+
+.production-file__name {
+    margin-bottom: 6px;
+    color: #000000;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 700;
+}
