@@ -300,6 +300,21 @@ ul, li{
 
 
 
+.wrapperr {
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    grid-auto-rows: 398px;
+    min-height: 800px;
+    grid-row-gap: 1em;
+}
+
+.wrapper-block{
+
+}
+#san{
+    background-color: #303984;
+
+}
 .ourWorks-ul {
     display: flex;
     margin-left: 125px;
@@ -307,6 +322,9 @@ ul, li{
 
 .ourWorks-ul__li{
     margin-right: 24px;
+}
+.ourWorks-gallery{
+    
 }
 
 .ourWorks-gallery__img{
@@ -318,30 +336,59 @@ ul, li{
 }
 
 #ourWorks-image1{
-    background: url('../img/work1.png') no-repeat;
-}
-#ourWorks-image2{
-    background: url('../img/work2.png') no-repeat;
-}
-#ourWorks-image3{
-    background: url('../img/work3.png') no-repeat;
+    background-color: #fff;
+    border-radius: 7px;
 }
 
 .ourWorks-gallery{
-    width: 350px;
-    height: 450px;
+    width: 307px;
+    height: 347px;
+   
 }
 
-#ourWorks-image4{
-    background: url('../img/work3.png') no-repeat;
-}
-#ourWorks-image5{
-    background: url('../img/work4.png') no-repeat;
-}
-#ourWorks-image6{
-    background: url('../img/work5.png') no-repeat;
+.block-padding{
+    width: 225px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+.block-padding>img{
+    width: 200px;
+    height: 202px;
+    margin-bottom: 14px;
+    margin-left: 11px;
+}
+
+.block-padding>h4{
+    margin-bottom: 14px !important;
+    padding-top: 7px !important;
+}
+
+.offer-cont__btn{
+    background: #d8110e !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+    padding: 8px 20px !important;
+    display: inline !important;
+    border-radius: none !important;
+    letter-spacing: 0.3em !important;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-bottom: 5px;
+    margin-left: 11px;
+    border-radius: 7px;
+    width: 200px;
+}
+
+.owp{
+    padding-top: 44px;
+}
+
+.offer-cont__btn>a {
+    color: #fff !important;
+}
 .ourWorks-sect2{
     margin-bottom: 30px;
 }
@@ -361,6 +408,7 @@ ul, li{
 
 .s-b{
     margin-left: 32px;
+    background-color: #d07628 !important;
 }
 
 .autoplay div>img{
@@ -419,7 +467,7 @@ ul, li{
     white-space: nowrap;
     margin-bottom: 15px;
     background-color: #fff;
-    width: 230px;
+    width: 312px;
     height: 131px;
     float: left;
 }
@@ -843,6 +891,7 @@ div.scrollup {
 #menu{
     position: fixed;
     margin-left: 576px;
+    margin-top: -58px;
     background: #FFF;
     z-index: 1000;
     padding-top: 19px;
@@ -961,3 +1010,6 @@ a {
 .a__con-4{
     font-size: 14px;
 }
+
+
+
