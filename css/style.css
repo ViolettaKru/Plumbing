@@ -260,6 +260,7 @@ ul, li{
 
 .services-two{
     margin-bottom: 150px;
+    margin-top: 150px;
 }
 
 .services-two__img{
@@ -313,7 +314,7 @@ ul, li{
 }
 #san{
     background-color: #303984;
-
+    margin-top: 150px;
 }
 .ourWorks-ul {
     display: flex;
