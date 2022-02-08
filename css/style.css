@@ -65,7 +65,7 @@ ul, li{
 
 
 .slick-slider {
-    margin-left: 49px !important;
+    margin-left: 19px !important;
 }
 
 .slider-gl{
@@ -343,7 +343,7 @@ ul, li{
 
 .ourWorks-gallery{
     width: 307px;
-    height: 347px;
+    height: 343px;
    
 }
 
@@ -358,12 +358,14 @@ ul, li{
     height: 202px;
     margin-bottom: 14px;
     margin-left: 11px;
+    margin-top: 10px;
 }
 
 .block-padding>h4{
     margin-bottom: 14px !important;
     padding-top: 7px !important;
 }
+
 
 .offer-cont__btn{
     background: #d8110e !important;
@@ -373,15 +375,17 @@ ul, li{
     font-size: 10px !important;
     padding: 8px 20px !important;
     display: inline !important;
-    border-radius: none !important;
     letter-spacing: 0.3em !important;
     text-align: center;
     transition: all 0.5s ease;
     margin-bottom: 5px;
     margin-left: 11px;
+    margin-top: 13px;
     border-radius: 7px;
     width: 200px;
 }
+
+
 
 .owp{
     padding-top: 44px;
@@ -413,12 +417,12 @@ ul, li{
 }
 
 .autoplay div>img{
-    width: 97% !important;
+    width: 100% !important;
 }
 
 
 .slick-prev{
-    left: -60px !important;
+    left: -40px !important;
 }
 
 
@@ -434,6 +438,7 @@ ul, li{
     content: url('../img/right1.png') !important;
     width: 32px !important;
     height: 32px !important;
+    margin-left: 4px;
 }
 
 .slick-next {
@@ -448,6 +453,20 @@ ul, li{
 
 
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    margin-bottom: 26px;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 
 
