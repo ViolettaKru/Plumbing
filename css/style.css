@@ -70,6 +70,8 @@ ul, li{
 
 .slider-gl{
     max-width: 1445px !important;
+    margin-left: 452px;
+
 }
 .logo{
 
@@ -90,6 +92,10 @@ ul, li{
     text-decoration: none;
     margin-right: 27px;
     color: #787777;
+}
+
+.problems-img{
+
 }
 
 
@@ -160,7 +166,7 @@ ul, li{
 
 .about__author{
     background: url('../img/author.jpg') no-repeat left center;
-    padding-left: 96px;
+
     padding: 7px 0 7px 96px;
     margin-top: 61px;
 }
@@ -179,6 +185,7 @@ ul, li{
     letter-spacing: 0.25em;
     color: #8f8f8f;
     margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .section-title__heading{
@@ -419,11 +426,12 @@ ul, li{
 
 .autoplay div>img{
     width: 100% !important;
+
 }
 
 
 .slick-prev{
-    left: -40px !important;
+    left: -52px !important;
 }
 
 
@@ -447,7 +455,7 @@ ul, li{
 }
 
 .testimonials{
-    margin-top: 0px;
+    margin-top: 86px;
     margin-bottom: 200px;
   
 }
