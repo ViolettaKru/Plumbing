@@ -65,12 +65,12 @@ ul, li{
 
 
 .slick-slider {
-    margin-left: 19px !important;
+
 }
 
 .slider-gl{
-    max-width: 1445px !important;
-    margin-left: 452px;
+    max-width: 90% !important;
+
 
 }
 .logo{
@@ -455,9 +455,8 @@ ul, li{
 }
 
 .testimonials{
-    margin-top: 86px;
+    margin-top: 38px;
     margin-bottom: 200px;
-  
 }
 
 
@@ -735,11 +734,12 @@ ul, li{
         margin-left: -2px;
     }
     .ourWorks{
-        height: 1344px;
+        height: 100%;
     }
     .testimonials {
         margin-bottom: 63px;
     }
+
     .nike{
         display: none;
     }
@@ -763,29 +763,50 @@ ul, li{
 
 
 @media only screen and (max-width : 480px) {
+    .slider-gl {
+        width: 321px;
+        margin-left: 51px;
+    }
+    .logo{
+        margin-right: 82px;
+        margin-top: -45px;
+    }
     .hero {
         background-size: 100% 73%;
         right: -128px;
     }
+    .problems-img{
+        display: none;
+    }
+    .wrapperr {
+
+        grid-template-columns: repeat(1, 0.3fr);
+        grid-auto-rows: 398px;
+        min-height: 800px;
+        margin-left: 38px;
+    }
+    .section-title__heading {
+        font-size: 3.25vw;
+    }
     .problems {
-        margin-left: 45px;
+        margin-left: 9px;
+        margin-top: -372px;
     }
     .about {
-        margin-left: 65px;
+        margin-left: -8px;
         width: 400px;
     }
     .services {
         margin-left: 65px;
     }
     .ourWorks {
-        margin-left: 74px;
+
     }
     .testimonials {
-        margin-left: 137px;
-        width: 426px;
+        width: 100%;
     }
     .clients {
-        padding-left: 79px;
+
         margin-right: -134px;
     }
     .footer{
@@ -793,7 +814,23 @@ ul, li{
         margin-right: -134px;
         margin-left: 0px;
     }
-  
+    .certification__list{
+        display: block !important;
+        margin-left: 89px;
+    }
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 37.25%;
+        margin-left: -30px;
+        margin-bottom: 26px;
+        position: relative;
+        height: 0;
+        width: 100%;
+    }
+    .clients{
+        height: 100%;
+    }
+
 }
 
 
@@ -918,14 +955,17 @@ div.scrollup {
 }
 
 #menu{
-    position: fixed;
-    margin-left: 576px;
-    margin-top: -58px;
+
+
+    margin-top: -43px;
     background: #FFF;
     z-index: 1000;
     padding-top: 19px;
 }
+#h_tel{
+    margin-top: -28px;
 
+}
 .certification__list {
     display: flex;
     flex-wrap: wrap;
