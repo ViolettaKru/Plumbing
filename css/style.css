@@ -237,6 +237,10 @@ ul, li{
     background-color: #fff;
     border-radius: 7px;
 }
+#ourWorks-image6{
+    background-color: #fff;
+    border-radius: 7px;
+}
 .ourWorks-gallery{
     width: 307px;
     height: 343px;
@@ -436,10 +440,10 @@ ul, li{
         top: 83px;
     }
     #ourWorks-image2 {
-        background: none;
+
     }
     #ourWorks-image5 {
-        background: none;
+
     }
     #ourWorks-image3 {
         margin-left: -156px;
@@ -500,19 +504,51 @@ ul, li{
     }
     .logo {
         float: right;
-        margin-right: -100px;
+
+    }
+    #h_tel {
+        margin-top: -28px;
+        width: 228px;
     }
     .offer-cont {
         width: 314px;
         font-size: smaller;
         padding-right: 50px;
     }
+
     .offer-cont__title {
         font-size: 24px;
     }
+    #menu {
+        margin-top: -43px;
+        background: none !important;
+        z-index: 1000;
+        padding-top: 19px;
+    }
+    .wrapperr {
+        display: grid;
+        grid-template-columns: repeat(1, 0.3fr);
+        grid-auto-rows: 398px;
+        min-height: 800px;
+        grid-row-gap: 1em;
+    }
+    .clients {
+        background: #E5E5E5;
+        padding-top: 67px;
+        padding-bottom: 20px;
+        height: 100%;
+    }
+    .certification__list {
+        display: flex;
+        flex-flow: column-reverse;
+        padding: 0;
+        list-style: none;
+        height: 100%;
+        margin-bottom: 20px;
+    }
     .problems-img {
-        margin-top: 18px;
-        margin-bottom: 62px;
+        display: none;
+
     }
     .no-js .owl-carousel, .owl-carousel.owl-loaded {
         margin-top: 35px;
