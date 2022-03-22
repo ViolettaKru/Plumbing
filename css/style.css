@@ -200,6 +200,14 @@ ul, li{
     grid-column-gap: 27px;
     grid-row-gap: 19em;
 }
+.wrapper2{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-column-gap: 27px;
+    grid-row-gap: 4em;
+}
+
 
 #san{
     background-color: #303984;
@@ -419,7 +427,9 @@ ul, li{
   .tabs>div:target {
     display: block;
   }
+
 .client-s{
+
     margin-top: 110px;
 
     text-align: center;
@@ -625,12 +635,18 @@ ul, li{
     }
 
     .wrapperr {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        grid-template-rows: repeat(6, 200px);
+        grid-template-columns: repeat(1, 2fr) !important;
+        grid-template-rows: repeat(6, 200px) !important;
         grid-column-gap: 27px;
         grid-row-gap: 5em;
         margin-left: 73px;
+    }
+    .wrapper2{
+        grid-template-columns: repeat(1, 2fr) !important;
+        grid-template-rows: repeat(6, 200px) !important;
+        grid-column-gap: 27px;
+        grid-row-gap: 5em;
+        margin-left: 3px;
     }
     .certification__list{
         display: block !important;
