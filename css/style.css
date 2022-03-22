@@ -195,11 +195,12 @@ ul, li{
 }
 .wrapperr {
     display: grid;
-    grid-template-columns: repeat(3, 0.3fr);
-    grid-auto-rows: 398px;
-    min-height: 800px;
-    grid-row-gap: 1em;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-column-gap: 27px;
+    grid-row-gap: 19em;
 }
+
 #san{
     background-color: #303984;
     margin-top: 150px;
@@ -216,6 +217,9 @@ ul, li{
 }
 .ourWorks-gallery>img:hover{
     display: block;
+}
+.btn-adap>a {
+    color: #ffffff !important;
 }
 #ourWorks-image1{
     background-color: #fff;
@@ -301,6 +305,18 @@ ul, li{
 .s-b{
     margin-left: 32px;
     background-color: #d07628 !important;
+}
+
+.btn-adap {
+    background: #303984;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 13px 26px;
+    display: inline;
+    letter-spacing: 0.3em;
+    text-align: center;
 }
 .autoplay div>img{
     width: 100% !important;
@@ -405,8 +421,12 @@ ul, li{
   }
 .client-s{
     margin-top: 110px;
-    margin-bottom: 110px;
+
     text-align: center;
+}
+.partners {
+    margin-top: 73px;
+    margin-bottom: -24px;
 }
 .clients{
     background: #E5E5E5;
@@ -446,10 +466,10 @@ ul, li{
 
     }
     #ourWorks-image3 {
-        margin-left: -156px;
+
     }
     #ourWorks-image6 {
-        margin-left: -156px;
+
     }
 }
 @media only screen and (max-width : 990px) {
@@ -492,10 +512,10 @@ ul, li{
         right: 45px;
     }
     #ourWorks-image3 {
-        display: none;
+
     }
     #ourWorks-image6 {
-        display: none;
+
     }
 }
 @media only screen and (max-width : 770px) {
@@ -525,13 +545,7 @@ ul, li{
         z-index: 1000;
         padding-top: 19px;
     }
-    .wrapperr {
-        display: grid;
-        grid-template-columns: repeat(1, 0.3fr);
-        grid-auto-rows: 398px;
-        min-height: 800px;
-        grid-row-gap: 1em;
-    }
+
     .clients {
         background: #E5E5E5;
         padding-top: 67px;
@@ -567,9 +581,7 @@ ul, li{
         width: 335px;
         margin-left: 265px;
     }
-    #ourWorks-image4 {
-        margin-top: -412px;
-    }
+
     .seeourworks {
         margin-top: -477px;
     }
@@ -608,23 +620,82 @@ ul, li{
         width: 321px;
         margin-left: 51px;
     }
+    .section-title__label{
+        margin-top: -11px;
+    }
+
+    .wrapperr {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: repeat(6, 200px);
+        grid-column-gap: 27px;
+        grid-row-gap: 5em;
+        margin-left: 73px;
+    }
+    .certification__list{
+        display: block !important;
+
+    }
+
+    #h_tel {
+        margin-left: 39%;
+        margin-top: 16px !important;
+    }
+    #h_tel>p{
+        border: 2px solid #0d85cb;
+        padding: 5px;
+    }
+    .btn-adap{
+        font-size: 8px;
+        margin-left: 52%;
+    }
     .logo{
-        margin-right: 82px;
-        margin-top: -45px;
+        margin-right: 5%;
+        margin-top: -46px;
+    }
+    #partners-h3 {
+        font-size: 16px !important;
+        width: 349px !important;
+    }
+    .partners-h6 {
+       margin-top: 10px;
+    }
+    .client-s {
+
+    }
+    #san {
+        margin-top: 65px;
+        width: 100%;
+        height: 1890px
     }
     .hero {
         background-size: 100% 73%;
         right: -128px;
     }
+
+    .prodsec{
+        margin-top: -10px;
+    }
+
+    .ourWorks-gallery {
+        width: 207px;
+        height: 243px;
+    }
+    .block-padding>img {
+        width: 120px;
+        height: 122px;
+        margin-left: 40px;
+    }
+    .offer-cont__btn {
+
+    }
+    .productsec2{
+        height: 200px;
+    }
     .problems-img{
         display: none;
     }
-    .wrapperr {
-        grid-template-columns: repeat(1, 0.3fr);
-        grid-auto-rows: 398px;
-        min-height: 800px;
-        margin-left: 38px;
-    }
+
     .section-title__heading {
         font-size: 3.25vw;
     }
@@ -632,15 +703,26 @@ ul, li{
         margin-left: 9px;
         margin-top: -372px;
     }
+    .about__title {
+        margin-bottom: 30px !important;
+        font-size: 21px;
+    }
+    .about__text{
+        font-size: 70%;
+    }
+
+
     .about {
         margin-left: -8px;
-        width: 400px;
+        width: 99%;
+        margin-top: 59px;
     }
     .services {
         margin-left: 65px;
     }
     .testimonials {
-        width: 100%;
+        width: 80%;
+        margin-top: 63px
     }
     .clients {
         margin-right: -134px;
@@ -649,10 +731,7 @@ ul, li{
         padding-left: 17px;
         margin-right: -134px;
     }
-    .certification__list{
-        display: block !important;
-        margin-left: 89px;
-    }
+
     .map-responsive {
         overflow: hidden;
         padding-bottom: 37.25%;
@@ -790,15 +869,11 @@ div.scrollup {
     list-style: none;
 }
     .certification__item {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 25%;
+        margin-left: 81px;
+        margin-bottom: 34px;
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
         border-left: 1px solid #eee;
-        padding: 20px;
-        margin-bottom: -1px;
         transition: box-shadow 0.2s ease;
     }
 .centeringin {
