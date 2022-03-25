@@ -436,7 +436,7 @@ ul, li{
 }
 .partners {
     margin-top: 73px;
-    margin-bottom: -24px;
+    margin-bottom: 18px;
 }
 .clients{
     background: #E5E5E5;
@@ -643,10 +643,10 @@ ul, li{
     }
     .wrapper2{
         grid-template-columns: repeat(1, 2fr) !important;
-        grid-template-rows: repeat(6, 200px) !important;
+        grid-template-rows: repeat(6, 100px) !important;
         grid-column-gap: 27px;
         grid-row-gap: 5em;
-        margin-left: 3px;
+        margin-left: 13px;
     }
     .certification__list{
         display: block !important;
@@ -744,19 +744,35 @@ ul, li{
     .footer{
         padding-left: 17px;
         margin-right: -134px;
+        width: 100%;
     }
-
+    .certification__link>img{
+        width: 182px;
+        margin-left: 20px;
+    }
+    .certification__item {
+        margin-left: 68px !important;
+    }
     .map-responsive {
         overflow: hidden;
         padding-bottom: 37.25%;
-        margin-left: -30px;
+        margin-left: -4px;
+        margin-top: 15px;
         margin-bottom: 26px;
         position: relative;
         height: 0;
-        width: 100%;
+        width: 96%;
     }
     .clients{
         height: 100%;
+        width: 100%;
+    }
+    .logofooter {
+        padding-top: 30px !important;
+    }
+    .client-s {
+        margin-top: 30px !important;
+        text-align: center;
     }
 
 }
