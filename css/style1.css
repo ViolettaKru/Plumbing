@@ -1,0 +1,27 @@
+body{
+    background-color: #303984;
+}
+
+.header1{
+    background-color: #fff;
+    margin: 0;
+    position: fixed;
+    opacity: .9;
+    width: 100%;
+}
+.content>img{
+    width: 40%;
+    margin: 10px auto;
+}
+.content{
+    display: grid;
+    
+}
+
+.nav1{
+    margin: 0;
+}
+.pust{
+    height: 134px;
+    width: 100%;
+}
