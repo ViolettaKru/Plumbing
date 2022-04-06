@@ -10,7 +10,7 @@ body{
     width: 100%;
 }
 .content>img{
-    width: 40%;
+    width: 80%;
     margin: 10px auto;
 }
 .content{
@@ -24,4 +24,13 @@ body{
 .pust{
     height: 134px;
     width: 100%;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+#h_tel{
+    margin: 0;
+    padding: 0;
 }
