@@ -10,8 +10,12 @@ body{
     width: 100%;
 }
 .content>img{
-    width: 80%;
+    width: 40%;
     margin: 10px auto;
+}
+
+.content>.img1{
+    width: 80% !important;
 }
 .content{
     display: grid;
